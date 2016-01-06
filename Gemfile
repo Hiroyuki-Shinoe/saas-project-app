@@ -6,6 +6,12 @@ ruby '2.2.2'
 gem 'rails', '4.2.4'
 # Use postgresql as the database for Active Record
 gem 'pg', '0.18.4'
+
+gem 'devise', '3.5.2'
+
+# Multi-tenanting gem for hosted Rails/Ruby/devise applications
+gem 'milia', '1.2'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '5.0.4'
 # Use Uglifier as compressor for JavaScript assets
@@ -51,3 +57,6 @@ group :production do
 end
 
 
+
+gem 'recaptcha', require: 'recaptcha/rails'
+gem 'activerecord-session_store', github: 'rails/activerecord-session_store'
