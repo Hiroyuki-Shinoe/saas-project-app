@@ -12,6 +12,11 @@ gem 'devise', '3.5.2'
 # Multi-tenanting gem for hosted Rails/Ruby/devise applications
 gem 'milia', '1.2'
 
+# twitter-bootstrap-rails project integrates Bootstrap CSS toolkit for Rails 4, 3.x Asset Pipeline
+gem 'twitter-bootstrap-rails', '3.2.2'
+
+gem 'devise-bootstrap-views', '0.0.7'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '5.0.4'
 # Use Uglifier as compressor for JavaScript assets
